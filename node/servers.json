@@ -1,0 +1,128 @@
+{
+    "servers": [
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440000",
+            "hostname": "web-server-01",
+            "ip": "192.168.1.100",
+            "os_type": "Linux",
+            "status": "online",
+            "last_seen": "2024-03-20T15:30:45.123Z",
+            "capabilities": {
+                "has_gui": true,
+                "cpu_count": 4,
+                "total_memory": 8589934592,
+                "platform": "Linux",
+                "desktop_environment": "GNOME",
+                "supported_protocols": ["ssh", "rdp", "vnc"]
+            },
+            "security": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+                "certificate_fingerprint": "sha256:a1b2c3d4...",
+                "last_auth_time": "2024-03-20T15:30:45.123Z"
+            },
+            "network": {
+                "internal_ip": "192.168.1.100",
+                "external_ip": "203.0.113.10",
+                "open_ports": [22, 3389, 5900],
+                "connection_type": "direct"
+            },
+            "performance": {
+                "cpu_usage": 45.2,
+                "memory_usage": 6442450944,
+                "disk_space": {
+                    "total": 1099511627776,
+                    "used": 549755813888
+                },
+                "network_speed": {
+                    "upload": 10485760,
+                    "download": 20971520
+                }
+            }
+        },
+        {
+            "id": "660e8400-e29b-41d4-a716-446655440001",
+            "hostname": "windows-desktop-01",
+            "ip": "192.168.1.101",
+            "os_type": "Windows",
+            "status": "online",
+            "last_seen": "2024-03-20T15:31:00.456Z",
+            "capabilities": {
+                "has_gui": true,
+                "cpu_count": 8,
+                "total_memory": 17179869184,
+                "platform": "Windows",
+                "desktop_environment": "Windows 10",
+                "supported_protocols": ["rdp"]
+            },
+            "security": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+                "certificate_fingerprint": "sha256:e5f6g7h8...",
+                "last_auth_time": "2024-03-20T15:31:00.456Z"
+            },
+            "network": {
+                "internal_ip": "192.168.1.101",
+                "external_ip": "203.0.113.11",
+                "open_ports": [3389],
+                "connection_type": "direct"
+            },
+            "performance": {
+                "cpu_usage": 25.6,
+                "memory_usage": 8589934592,
+                "disk_space": {
+                    "total": 2199023255552,
+                    "used": 1099511627776
+                },
+                "network_speed": {
+                    "upload": 15728640,
+                    "download": 31457280
+                }
+            }
+        },
+        {
+            "id": "770e8400-e29b-41d4-a716-446655440002",
+            "hostname": "macos-workstation-01",
+            "ip": "192.168.1.102",
+            "os_type": "Darwin",
+            "status": "offline",
+            "last_seen": "2024-03-20T14:15:22.789Z",
+            "capabilities": {
+                "has_gui": true,
+                "cpu_count": 6,
+                "total_memory": 12884901888,
+                "platform": "Darwin",
+                "desktop_environment": "macOS",
+                "supported_protocols": ["vnc", "ssh"]
+            },
+            "security": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+                "certificate_fingerprint": "sha256:i9j0k1l2...",
+                "last_auth_time": "2024-03-20T14:15:22.789Z"
+            },
+            "network": {
+                "internal_ip": "192.168.1.102",
+                "external_ip": "203.0.113.12",
+                "open_ports": [22, 5900],
+                "connection_type": "nat"
+            },
+            "performance": {
+                "cpu_usage": 0,
+                "memory_usage": 0,
+                "disk_space": {
+                    "total": 1099511627776,
+                    "used": 732374151168
+                },
+                "network_speed": {
+                    "upload": 0,
+                    "download": 0
+                }
+            }
+        }
+    ],
+    "metadata": {
+        "last_update": "2024-03-20T15:31:00.456Z",
+        "total_servers": 3,
+        "online_servers": 2,
+        "node_version": "1.0.0",
+        "database_schema_version": "1.0"
+    }
+} 
